@@ -1,0 +1,31 @@
+body {
+    background:darkgray;
+}
+
+.duck_container {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+
+#description {
+    background: white;
+    padding: 10px;
+    min-width: 100px;
+    max-width: 500px;
+    min-height: 300px;
+    max-height: 500px;
+}
