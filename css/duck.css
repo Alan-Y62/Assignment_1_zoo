@@ -2,6 +2,7 @@ body {
     background:darkgray;
 }
 
+/* centered image and description */
 .duck_container {
     margin: 20px;
     display: grid;
@@ -10,11 +11,13 @@ body {
     column-gap: 50px;
 }
 
+/*center the home page link*/
 h1 {
     display: flex;
     justify-content: center;
 }
 
+/*center the title*/
 h2 {
     display: flex;
     justify-content: center;
@@ -23,7 +26,7 @@ h2 {
 
 #description {
     background: white;
-    padding: 10px;
+    padding: 10px; /*adds spacing between content and paragraph */
     min-width: 100px;
     max-width: 500px;
     min-height: 300px;
