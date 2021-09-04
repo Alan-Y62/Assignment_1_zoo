@@ -1,0 +1,41 @@
+body {
+    background: darkgray;
+}
+
+.alpaca_container {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+h1 {
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+/*center the title*/
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+
+#alpaca_desc {
+    background: white;
+    padding: 10px; /*adds spacing between content and paragraph */
+    font-size: 40px;
+    min-width: 500px;
+    max-width: 800px;
+    min-height: 700px;
+    max-height: 700px;
+}
+
+img {
+    max-width: 750px;
+    min-width: 750px;
+    max-height: 800px;
+    min-height: 800px;
+}
